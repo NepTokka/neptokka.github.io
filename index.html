@@ -1,69 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>NepTokka – Create. Stream. Earn.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="NepTokka is a global short video and live streaming platform with earning features." />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #ffffff;
-      text-align: center;
-    }
-    header {
-      padding: 80px 20px;
-      background: linear-gradient(135deg, #4f46e5, #9333ea);
-    }
-    section {
-      padding: 40px 20px;
-    }
-    h1 { font-size: 42px; }
-    button {
-      padding: 12px 24px;
-      border: none;
-      border-radius: 25px;
-      background: #22c55e;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    footer {
-      padding: 20px;
-      background: #020617;
-      font-size: 14px;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>NepTokka – Create, Stream & Earn</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:linear-gradient(135deg,#5f2cff,#2a7cff);
+  color:#ffffff;
+}
+section{
+  padding:70px 20px;
+  text-align:center;
+}
+h1{font-size:52px;margin-bottom:10px;}
+h2{font-size:36px;margin-bottom:20px;}
+p{
+  font-size:18px;
+  line-height:1.7;
+  max-width:900px;
+  margin:10px auto;
+}
+.btn{
+  display:inline-block;
+  margin:12px;
+  padding:14px 30px;
+  background:#25D366;
+  color:#fff;
+  border-radius:30px;
+  text-decoration:none;
+  font-size:18px;
+}
+.secondary{
+  background:#ffb300;
+  color:#000;
+}
+.dark{
+  background:#0d1326;
+}
+.features li{
+  list-style:none;
+  font-size:18px;
+  margin:12px 0;
+}
+input,textarea{
+  width:90%;
+  max-width:520px;
+  padding:14px;
+  margin:8px 0;
+  border-radius:8px;
+  border:none;
+  font-size:16px;
+}
+button{
+  padding:14px 34px;
+  border:none;
+  border-radius:30px;
+  background:#ff9800;
+  font-size:16px;
+}
+footer{
+  background:#000;
+  padding:25px;
+  text-align:center;
+  font-size:14px;
+}
+</style>
 </head>
 
 <body>
 
-<header>
-  <h1>NepTokka</h1>
-  <p>Create. Stream. Earn.</p>
-  <button>Android App Coming Soon</button>
-</header>
-
+<!-- HERO -->
 <section>
+  <h1>NepTokka</h1>
+  <p><b>Create. Stream. Earn.</b></p>
+
+  <p style="margin-top:25px;">
+    NepTokka Android App will be available on the <b>Google Play Store very soon</b>.
+    We are building a powerful platform for creators, gamers, and streamers worldwide.
+  </p>
+
+  <a class="btn" href="https://wa.me/9779829013379" target="_blank">
+    📲 Contact on WhatsApp
+  </a>
+
+  <a class="btn secondary" href="#feedback">
+    💬 Give Feedback
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section class="dark">
   <h2>About NepTokka</h2>
   <p>
-    NepTokka is a global short-video and live-streaming platform designed for creators,
-    gamers, and streamers with real earning opportunities.
+    NepTokka is a next-generation global short-video and live-streaming platform.
+    It empowers creators and gamers to showcase talent, grow an audience,
+    and earn real income through videos, live streams, gifts, and referrals.
+  </p>
+
+  <p>
+    Our mission is to provide fair monetization, powerful creator tools,
+    and a safe community-driven ecosystem for digital creators.
   </p>
 </section>
 
+<!-- FEATURES -->
 <section>
-  <h2>Key Features</h2>
-  <p>🎬 Short Videos & Reels</p>
-  <p>🔴 Live Streaming with Screen Sharing</p>
-  <p>💎 Diamond Earning System</p>
-  <p>💼 Local Wallet Withdrawals</p>
-  <p>🎮 Game Top-Up</p>
+  <h2>Core Features</h2>
+  <ul class="features">
+    <li>🎬 Short Videos & Reels Feed</li>
+    <li>🔴 Live Streaming with Screen Sharing (Gaming Friendly)</li>
+    <li>💎 Diamond-Based Earning System</li>
+    <li>🎁 Live Gifts & Fan Support</li>
+    <li>🤖 AI-Powered Personalized Feed</li>
+    <li>💰 Wallet, Withdrawals & Local Payment Support</li>
+    <li>🛡️ Community Guidelines & Safety System</li>
+  </ul>
+</section>
+
+<!-- EARNING -->
+<section class="dark">
+  <h2>How Creators Earn</h2>
+  <p>
+    Creators on NepTokka can earn diamonds through video views,
+    live stream gifts, referrals, and platform rewards.
+    Diamonds can be converted into real money using supported wallets.
+  </p>
+
+  <p>
+    Once creators reach the eligibility requirements,
+    earnings and withdrawals become available directly inside the app.
+  </p>
+</section>
+
+<!-- FEEDBACK -->
+<section id="feedback">
+  <h2>User Feedback & Suggestions</h2>
+  <p>
+    We believe in building NepTokka together with our community.
+    Share your ideas, feedback, or feature requests below.
+  </p>
+
+  <form action="https://formspree.io/f/xwkgyqzg" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="email" name="email" placeholder="Your Email" required><br>
+    <textarea name="message" rows="4" placeholder="Your feedback or suggestion" required></textarea><br>
+    <button type="submit">Submit Feedback</button>
+  </form>
+</section>
+
+<!-- NOTIFY -->
+<section class="dark">
+  <h2>Get Notified at Launch</h2>
+  <p>
+    Want to be among the first users?
+    Contact us on WhatsApp and get notified when the app launches.
+  </p>
+
+  <a class="btn" href="https://wa.me/9779829013379?text=Please%20notify%20me%20when%20NepTokka%20launches" target="_blank">
+    🔔 Notify Me on WhatsApp
+  </a>
 </section>
 
 <footer>
-  © 2026 NepTokka. All rights reserved.
+  © 2026 NepTokka • All Rights Reserved  
+  <br>
+  Official Contact: +977 9829013379
 </footer>
 
 </body>
