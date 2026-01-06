@@ -1,2 +1,2 @@
-# neptokka.github.io
+# neptokka
 Official NepTokka website
